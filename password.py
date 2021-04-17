@@ -2,9 +2,9 @@ import streamlit as st
 import random
 import string
 user_input = st.slider("password length",1,100,1)
-dig=st.checkbox("has digits")
-alp=st.checkbox("has alphabets")
-sym=st.checkbox("has symbols")
+dig=st.checkbox("include digits")
+alp=st.checkbox("include alphabets")
+sym=st.checkbox("include symbols")
 password=''
 #st.stop()
 if dig and alp and sym:
