@@ -21,6 +21,7 @@ elif not dig and not alp and sym:
     passsword=''.join(random.choice(string.punctuation) for i in range(user_input))
 elif not alp and not sym and dig:
     password=''.join(random.choice(string.digits) for i in range(user_input))
+
 st.write("Your password:\n")
 st.write(password)
  
